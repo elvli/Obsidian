@@ -1,5 +1,5 @@
 ## What is a Network?
----
+
 - Is a web of computers and devices that share resources and information
 - Networks can be categorized by their size and structure
 - Main purpose is to share resources
@@ -9,7 +9,7 @@
 
 
 ## Types of Networks
----
+
 **LAN**
 - Local Area Network
 - WLAN - Wireless LAN
@@ -44,7 +44,7 @@
 
 
 ## Peer-to-peer vs. Client-to-server
----
+
 **P2P**
 - Decentralized network architecture where each device (peer) can act as both client and a server
 - This allows direct sharing of resources, data, and services among all connect devices without a centralized server
@@ -57,7 +57,7 @@
 
 
 ## Backbone vs Segments
----
+
 ### Backbone
 - Is a central, high capacity transmission path that connects different parts of a network
 - Its the primary communication channel that interlinks various segments, networks, or devices
@@ -81,8 +81,8 @@
 
 
 ## Topologies
----
-**Network Topology
+
+**Network Topology**
 - describes the layout/arrangement of the elements in a computer network
 - Each arrange influences networks performance, reliability, and scalability
 
@@ -126,10 +126,10 @@
 
 
 ## Three-Tiered Hierarchal Model
----
+
 There are three main layers in Cisco's 3-tiered model: core, distribution, access.
 
-![[cisco_hierarchical_model.jpg]]
+![cisco three tiered model](./attachments/cisco_hierarchy.jpg)
 
 **Core**
 - Where all the routing happens, backbone
@@ -149,10 +149,10 @@ There are three main layers in Cisco's 3-tiered model: core, distribution, acces
 
 
 ## Spine and Leaf Network Design
----
+
 Spine and Leaf architecture is a two-layer network topology that is highly scalable and minimizes latency by ensuring that every leaf switch (access layer) is separated by no more than two switches from any other leaf.
 
-![[spine-and-leaf-architecture 1.jpg]]
+![spine and leaf network design](./attachments/spine-and-leaf-architecture.jpg)
 
 Spine switches only connect to leaf switches and vice versa.
 This provides extremely high data access speeds since you would only need to go through two layers to access the data you need.
@@ -171,10 +171,10 @@ This provides extremely high data access speeds since you would only need to go 
 
 
 ## Collapsed Core Network Design
----
+
 This design merges the core and distribution layers into a single layer, simplifying the network design and reducing hardware costs.
 
-![[1.webp]]
+![collapsed core network design](./attachments/collapsed-core-network-design.webp)
 
 This is ideal for small to medium networks, where managing separate layers is unnecessary.
 This architecture facilitates easier management and maintenance while enhancing performance by reducing latency between the network's core and distribution functions.
@@ -182,8 +182,8 @@ This architecture facilitates easier management and maintenance while enhancing 
 
 
 ## North South vs East West Traffic
----
-![[North-South-and-East-West-1024x823.webp]]
+
+![north south vs east west traffic](./attachments/North-South-and-East-West.webp)
 
 **North - South**
 - Refers to the flow of data that moves in and out of a data center or network.
@@ -196,7 +196,7 @@ This architecture facilitates easier management and maintenance while enhancing 
 
 
 ## Traffic Flow
----
+
 **Unicast**
 - Is a one-to-one form of communication where data is sent from one source to one specific destination identified by a unique IP address.
 - It is the most common form of IP communication, used for most internet traffic, web browsing, email, file transfers, etc.
@@ -214,7 +214,7 @@ This architecture facilitates easier management and maintenance while enhancing 
 - Commonly used in DNS and CDN (content delivery network) service
 - Anycast can improve network performance and availability by automatically routing requests to the nearest data center.
 
-**Broadcast
+**Broadcast**
 - A message is sent from one sender to *all* potential receivers within a network segment
 - In IPv4, the broadcast address is used to send data to all devices on a LAN simultaneously, such as when a device requests and IP address via DHCP
 - Broadcast is *not supported* in IPv6, instead multicast address are used for similar purposes
