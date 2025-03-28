@@ -88,8 +88,132 @@ This is the entry door to network services. Apps sit on top of this layer. It's 
 
 Concern about the format, apps must use a common format.
 This layer does:
-- Data conversion
-- Character Code Translation
-- Compress
-- Encryption & Decryption
+- **Prepares data for the Application Layer** (Layer 7).
+- Handles data translation, encryption, compression, and encoding.
+- Ensures compatibility between different systems by converting data formats.
 
+A few common encoding formats:
+
+| **Encoding Format** | **Full Name**                          | **Description** |
+|---------------------|----------------------------------------|-----------------|
+| ASCII               | American Standard Code for Information Interchange | Character encoding standard for text. |
+| Unicode             | Unicode                                | Universal character encoding standard supporting multiple languages and symbols. |
+| JPEG                | Joint Photographic Experts Group       | Image compression format for pictures. |
+| GIF                 | Graphics Interchange Format            | Image format that supports animations and compression. |
+| MPEG                | Moving Picture Experts Group           | Video compression standard for video files. |
+| Base64              | Transmission Control Protocol/Internet Protocol | Encoding scheme for representing binary data in an ASCII string format. |
+| TLS/SSL             | Transport Layer Security/Secure Sockets Layer | Protocols for encrypting data during transmission for secure communication. |
+| XML                 | Extensible Markup Language             | Format for encoding documents and data for easy sharing. |
+| HTML                | HyperText Markup Language              | Format used for structuring content on the web. |
+| MP3                 | MPEG Audio Layer III                   | Audio compression format widely used for music and audio files. |
+
+
+
+## Session Layer - 5
+
+Creates session for communications, maintains it, then tears it down.
+- **Manages sessions** between two communicating devices.
+- Responsible for **establishing, maintaining, and terminating** connections.
+- Provides **dialog control** by determining whether the communication is **half-duplex** (one-way) or **full-duplex** (two-way).
+- Ensures that data is properly **synchronized** during communication.
+- Manages **session checkpoints** to allow recovery if the communication is interrupted.
+
+| **Protocol** | **Full Name**                                      | **Description**                                        |
+|--------------|----------------------------------------------------|--------------------------------------------------------|
+| **RPC**      | Remote Procedure Call                              | Allows programs to execute procedures on other machines. |
+| **NetBIOS**  | Network Basic Input/Output System                  | Provides communication services within a local network. |
+| **SMB**      | Server Message Block                               | Protocol used for file sharing, network browsing, and printing. |
+| **PPTP**     | Point-to-Point Tunneling Protocol                  | Used for creating VPNs and secure connections. |
+| **X.225**    | ITU-T Recommendation X.225                         | Provides services for session initiation and management in network communication. |
+| **SAP**      | Session Announcement Protocol                      | Used for announcing multimedia sessions in a network. |
+
+
+
+## Transport Layer - *4*
+
+One of the busiest layers
+- **Responsible for end-to-end communication** between devices.
+- Manages the **flow of data** between sender and receiver, ensuring it is delivered correctly and in order.
+- Provides **error detection and correction** to ensure data integrity.
+- **Segmentation and reassembly**: Breaks large messages into smaller segments and reassembles them on the receiving end.
+
+There are many well known ports (0 - 1023)
+Companies can also register ports.
+
+| **Protocol** | **Full Name**                        | **Description**                                                                                                                           |
+| ------------ | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **TCP**      | Transmission Control Protocol        | Reliable, connection-oriented protocol that ensures data is delivered accurately and in order.                                            |
+| **UDP**      | User Datagram Protocol               | Connectionless, faster, but unreliable protocol; used for applications that can tolerate data loss (e.g., streaming, VoIP).               |
+| **SCTP**     | Stream Control Transmission Protocol | Combines the best features of TCP and UDP, providing reliable, message-oriented communication with additional features like multi-homing. |
+
+
+
+## Network Layer - *3*
+
+Moves data between two hosts that aren't physically connected using logical address, Internet Protocol (IP).
+Devices - Routers
+
+- **Responsible for routing** data packets between devices across different networks (internetworking).
+- Manages **logical addressing** (IP addresses) to ensure data reaches the correct destination.
+- Provides **packet forwarding** and **routing** to determine the best path for data transfer.
+- Handles **fragmentation** and **reassembly** of data packets to fit the maximum transmission unit (MTU) of the network.
+- It is connectionless, each packet is treated independently, and there is no guarantee of delivery, ordering, or error correction.
+
+| **Protocol** | **Full Name**                                | **Description**                                                                 |
+|--------------|----------------------------------------------|---------------------------------------------------------------------------------|
+| **IP**       | Internet Protocol                            | Responsible for addressing and routing packets across networks.                 |
+| **ICMP**     | Internet Control Message Protocol            | Used for sending error messages and operational information (e.g., "ping" requests). |
+| **ARP**      | Address Resolution Protocol                  | Resolves IP addresses to MAC addresses for local communication within a network. |
+| **RIP**      | Routing Information Protocol                 | A distance-vector routing protocol used to determine the best route in a network. |
+| **OSPF**     | Open Shortest Path First                     | A link-state routing protocol used in large-scale networks to find the most efficient routing paths. |
+
+
+
+## Data Link Layer - *2*
+
+Devices - Switches, NIC cards, Access Points, Bridges, Hubs
+
+- **Responsible for the reliable transfer of data** between two devices over the physical layer (Layer 1), ensuring error-free communication.
+- Handles the **framing** of data into packets (frames) for transmission.
+- **Performs error detection** and **error correction** (e.g., using checksums, CRC) to ensure data integrity.
+- Provides **flow control** to prevent data overload at the receiver.
+- **MAC (Media Access Control)**: Manages access to the physical transmission medium and resolves conflicts (e.g., Ethernet, Wi-Fi).
+- **Logical Link Control (LLC)**: Handles communication between the Data Link Layer and higher layers, such as Network Layer.
+
+| **Protocol** | **Full Name**                               | **Description**                                                                 |
+|--------------|---------------------------------------------|---------------------------------------------------------------------------------|
+| **Ethernet** | Ethernet                                    | The most common LAN protocol, using MAC addresses for device identification and managing shared network access. |
+| **Wi-Fi**    | IEEE 802.11 (Wi-Fi)                        | A set of wireless protocols providing local network access via wireless communication, using MAC addresses. |
+| **PPP**      | Point-to-Point Protocol                     | Used for point-to-point connections, providing framing, error detection, and link control. |
+| **HDLC**     | High-Level Data Link Control                | A bit-oriented protocol for communication over point-to-point and multipoint links, offering framing and error detection. |
+| **ARP**      | Address Resolution Protocol                 | Resolves IPv4 addresses to MAC addresses within a local network. |
+| **MAC**      | Media Access Control                        | A protocol that governs how devices access and share the physical transmission medium, e.g., Ethernet’s CSMA/CD or Wi-Fi’s CSMA/CA. |
+
+
+
+## Physical Layer - *1*
+
+The **Physical Layer** is responsible for the **transmission and reception of raw data** bits over a physical medium. It deals with the **hardware aspects** of networking, ensuring that data is converted into signals and transmitted across the network.
+
+- **Transmission of Raw Bits**: Converts data into signals (electrical, optical, or radio) for transmission.
+- **Media and Connector Types**: Defines the physical medium (e.g., cables, connectors).
+- **Signal Encoding**: Converts digital data into signals for transmission.
+- **Data Rate Control**: Determines the speed of transmission (in bits per second).
+- **Topology and Media Access**: Defines network structure and how devices access the medium.
+- **Physical Addressing**: Relies on MAC addresses from the Data Link Layer.
+
+| **Technology**       | **Description**                                                   |
+|----------------------|-------------------------------------------------------------------|
+| **Ethernet cables**   | Cables like Cat 5, Cat 6 used for wired network connections.     |
+| **Fiber optic cables**| Cables that use light signals for high-speed, long-distance transmission. |
+| **Wi-Fi**             | Wireless technology using radio waves for local area networks.   |
+| **Bluetooth**         | Short-range wireless communication technology for devices.       |
+| **Radio signals**     | Used in wireless communication for technologies like Wi-Fi and mobile networks. |
+| **Network Interface Cards (NICs)** | Hardware that connects devices to a network, either wired or wireless. |
+
+
+
+
+## Summary
+
+Move from 7 - 1 on your end and 1 - 7 on the other end.
