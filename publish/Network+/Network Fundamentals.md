@@ -22,6 +22,9 @@
 - Can cover a large geographic area, such as countries or continents.
 - The **internet** is the largest WAN.
 
+**SD-WAN** - Software Defined Wide Area Network
+- Uses software to manage and optimize wide area network (WAN) traffic
+
 **MAN** - Metropolitan Area Network
 - Covers a larger area than a LAN but smaller than a WAN.
 - Used by businesses with multiple buildings that are connected.
