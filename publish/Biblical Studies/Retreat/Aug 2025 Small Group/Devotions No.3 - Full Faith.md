@@ -28,7 +28,7 @@ The Holy Spirit empowers us to have full faith—living with our prayers and our
 ---
 ### Discussion Questions
 1. **When has God helped you rejoice in the hope of salvation in Jesus while facing devastating circumstances?**  
-   - In seasons of loss, remembering eternal life gave perspective  
+   - In times of hardship and loss, remembering eternal life gave perspective  
    - Experiencing peace that didn’t make sense in the moment  
    - Being reminded that suffering is temporary, but salvation is forever  
 
