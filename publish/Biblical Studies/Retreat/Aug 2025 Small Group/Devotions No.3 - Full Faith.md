@@ -13,26 +13,19 @@ In this world, until Jesus comes again, we’ll “suffer grief in all kinds of 
 The Holy Spirit empowers us to have full faith—living with our prayers and our situations confidently surrendered to Christ.  
 
 ---
-
 ### Notes
 
-- **Sethie’s Example**  
-  - Showed faith by surrendering her son’s outcome completely to God  
-  - Found peace both in the hope of healing and in trusting God if He called Shiloh home 
+  - Sethie showed faith by surrendering her son’s outcome completely to God  
+  - She Found peace both in the hope of healing and in trusting God if He called Shiloh home 
   - Declared that God is still good, even in devastating loss  
-
-- **Faith in Trials (1 Peter 1)**  
   - Trials and grief are real, but so is the hope we have in Christ  
   - New birth in Jesus anchors us in love and brings unexplainable joy  
   - Our ultimate hope is not temporary healing, but eternal salvation  
-
-- **Application to Us**  
   - Full faith isn’t denying pain—it’s trusting God’s goodness in it  
   - Joy and peace in Christ are possible even in deep suffering  
   - Surrender in prayer is an act of faith, not weakness  
 
 ---
-
 ### Discussion Questions
 1. **When has God helped you rejoice in the hope of salvation in Jesus while facing devastating circumstances?**  
    - In seasons of loss, remembering eternal life gave perspective  
