@@ -22,7 +22,7 @@ Believe in the lord your God, and you will be established. Believe in his prophe
 
 Believe you’ve already won your battle, because you believe in God.
 
-When you show the fear of the lord, it will spread around you.
+When you show the fear of the lord, it will spread to others around you.
 
 The unified message of these chapters
 - Diligently seek God
