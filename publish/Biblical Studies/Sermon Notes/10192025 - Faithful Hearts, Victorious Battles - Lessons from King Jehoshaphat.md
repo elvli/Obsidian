@@ -11,7 +11,7 @@ Seeking god in prayer, whether in private or in public.
 Fortify yourself in scripture. Remove idols from your life, they will distract you.
 
 #### Chapter 18
-Jehoshaphat mad the mistake of not seeking God first. He was induced by Ahab's manipulation after confronting him.
+Jehoshaphat made the mistake of not seeking God first. He was induced by Ahab's manipulation after confronting him. 
 
 #### Chapter 19
 Set your heart to seek God.
