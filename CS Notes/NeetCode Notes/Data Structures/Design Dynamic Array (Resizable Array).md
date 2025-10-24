@@ -14,7 +14,8 @@ Your `DynamicArray` class should support the following operations:
 If we call `void pushback(int n)` but the array is full, we should resize the array first.
 
 
-`class DynamicArray:
+```
+class DynamicArray:
 
     # O(n) n is the capacity, it has to allocate n times to make the arr
     def __init__(self, capacity: int):
@@ -65,5 +66,4 @@ If we call `void pushback(int n)` but the array is full, we should resize th
     # O(1)
     def getCapacity(self) -> int:
         return self.capacity
-`
-
+```
