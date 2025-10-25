@@ -106,45 +106,51 @@ Which action would you be most likely to take in response?
 - Offer to give half of the cash value back to the client
 - Accept but share the give with the team
 
-Which action would you be most likely to take in response?
+Which action would you be least likely to take in response?
 - Politely decline a gift card form the client
 - Seek manager permission and then accept a gift
 - **Offer to give half of the cash value back to the client**
 - Accept but share the give with the team
 
-Which action would you be most likely to take in response 
+
+
+Which action would you be most likely to take in response?
 - Suggest your coworker speak to the new analyst about the comment
 - **Talk to the person who made that comment about how the joke was inappropriate** 
 - Send out a general email to your team about respecting other coworkers
 - Give the coworker who received the comment advice on how to better fit into the workplace 
 
-Which action would you be least likely to take in response 
+Which action would you be least likely to take in response?
 - Suggest your coworker speak to the new analyst about the comment
 - Talk to the person who made that comment about how the joke was inappropriate 
 - Send out a general email to your team about respecting other coworkers
 - **Give the coworker who received the comment advice on how to better fit into the workplace** 
 
 
-Which action would you be most likely to take in response 
+
+Which action would you be most likely to take in response?
 - Ask your manager if an exception to the policy can be made since you could use the extra income
 - **Reject the job offer to maintain your contract with your employer**
 - Accept the job offer and chat what you learn with your current coworkers 
 - Ask your coworkers who work multiple jobs whether you should accept the offer
 
 
-Which action would you be least likely to take in response 
+Which action would you be least likely to take in response?
 - Ask your manager if an exception to the policy can be made since you could use the extra income
 - Reflect the job offer to maintain your contract with your employer
 - **Accept the job offer and chat what you learn with your current coworkers** 
 - Ask your coworkers who work multiple jobs whether you should accept the offer
 
-Which action would you be least likely to take in response 
+
+
+
+Which action would you be least most to take in response?
 - Offer to accept a less expensive gift instead of the expensive one they initially offered
 - Accept the gift since you do not want to be rude, and you want to avoid offending the client
 - **Thank the client for their kind offer and politely decline the gift**
 - Ask if the client could extend an employee discount so you can purchase the product at a discount
 
-Which action would you be least likely to take in response 
+Which action would you be least likely to take in response?
 - Offer to accept a less expensive gift instead of the expensive one they initially offered
 - **Accept the gift since you do not want to be rude, and you want to avoid offending the client**
 - Thank the client for their kind offer and politely decline the gift
@@ -152,13 +158,13 @@ Which action would you be least likely to take in response
 
 As a sales employee, your company’s annual sales goal deadline is coming up soon, and you still have not met your goal. You notice an error in the tracking system that shows you as having contacted a client that your coworker actually contacted instead. With this client counted, your goal would be reached 
 
-Which action would you be least likely to take in response
+Which action would you be most likely to take in response?
 - Ask your manager if you could lose your sales goal for this year
 - **Inform your manager of the error that you discovered** 
 - Count the credit towards your goal, since you did not intentionally create the error
 - Ask your manager whether it would be possible to extend the deadline for the goal
 
-Which action would you be least likely to take in response 
+Which action would you be least likely to take in response?
 - Ask your manager if you could lose your sales goal for this year
 - Inform your manager of the error that you discovered 
 - **Count the credit towards your goal, since you did not intentionally create the error**
@@ -166,13 +172,13 @@ Which action would you be least likely to take in response
 
 The deadline for an important project is tonight, you are ready to send the deliverable, which includes sensitive information, to the client. According to company policy, you need approval from your team’s director to send such information, but your director left early today and you are unlikely to receive approval in time
 
-What action would you be most likely to take in response
+What action would you be most likely to take in response?
 - Send it to the client, explaining that you will confirm later that the director has approved 
 - Get approval from your director early in the morning, so the report is only a little late
 - Ask a director of a different team to provide approval of the project
 - **Email the client asking for a one-day extension so you can get approval form your director**
 
-What action would you be most likely to take in response
+What action would you be least likely to take in response?
 - **Send it to the client, explaining that you will confirm later that the director has approved** 
 - Get approval from your director early in the morning, so the report is only a little late
 - Ask a director of a different team to provide approval of the project
@@ -180,13 +186,13 @@ What action would you be most likely to take in response
 
 You are traveling with your friend who works for a competitor company. Although your company’s policy states that non-employees should not have access to company property, your friend asks to use your work laptop to quickly check their personal email account for an important email they are expecting, since their personal cell phone has run out of battery
 
-Which action are you most likely to take in response
+Which action are you most likely to take in response?
 - Immediately allow your friend to check their email in your laptop
 - **Suggest that your friend check their email in their personal cell phone when it is charged**
 - Offer to check your friends email for to em using your work laptop
 - Allow your friend to check their email while you monitor their activity
 
-Which action are you most likely to take in response
+Which action are you least likely to take in response?
 - **Immediately allow your friend to check their email in your laptop**
 - Suggest that your friend check their email in their personal cell phone when it is charged
 - Offer to check your friends email for to em using your work laptop
@@ -195,13 +201,13 @@ Which action are you most likely to take in response
 
 You notice your coworkers discussing a project manager who recently joined the team. One of them says jokingly, “how did they get hired… I doubt they are even able to keep up with the current technology”. Company policy holds all employees accountable for ensuring a safe and respectful work environment 
 
-Which action work you most likely take in response
+Which action work you most likely take in response?
 - **Explain to your coworkers how the joke could be harmful to creating a safe workplace**
 - Ask your manager to share a copy of the new project manager’s résumé with the team
 - Report the incident to your manager’s immediately so that they are aware
 - Offered to help the new project manager if they have any challenges with the technology
 
-Which action work you most likely take in response
+Which action work you least likely take in response?
 - Explain to your coworkers how the joke could be harmful to creating a safe workplace
 - **Ask your manager to share a copy of the new project manager’s résumé with the team**
 - Report the incident to your manager’s immediately so that they are aware
@@ -209,13 +215,13 @@ Which action work you most likely take in response
 
 You are working in a crowded coffee shop when your manager messages you that they would like to call you to discuss a confidential project. Right after you read this message, you received a phone call from your manager
 
-Which action would you most likely take in response
+Which action would you most likely take in response?
 - **Answer the phone call since it’s unlikely that people will be able to clearly follow the conversation**
 - Step outside the coffee shop where it is a little more private to take the call
 - Ignore the call but plan to call your manager back when you’re able to talk in a private setting
 - Coordinate a time later today with your managers to talk to more private 
 
-Which action would you most likely take in response
+Which action would you least likely take in response?
 - Answer the phone call since it’s unlikely that people will be able to clearly follow the conversation
 - Step outside the coffee shop where it is a little more private to take the call
 - Ignore the call but plan to call your manager back when you’re able to talk in a private setting
@@ -223,13 +229,13 @@ Which action would you most likely take in response
 
 You’re having dinner with your friend who works in sales at a competitor company. they tell you their job is at risk because of the difficulties in meeting sales goals. since you exceeded your sales goals your friend asked if you could share contact information for your biggest clients your company policy, prohibit, share confidential information, including client contacts of any kind.
 
-Which action would you be most likely to take in response
+Which action would you be most likely to take in response?
 - Change the subject of a conversation with something else hoping they will not ask again
 - Agree to share contact information for several of your current clients
 - **Explain to your friend that you cannot share that information with them**
 - Offered to share useful sales strategies you learn on the job instead
 
-Which action would you be most likely to take in response
+Which action would you be least likely to take in response?
 - Change the subject of a conversation with something else hoping they will not ask again
 - **Agree to share contact information for several of your current clients**
 - Explain to your friend that you cannot share that information with them
@@ -237,13 +243,13 @@ Which action would you be most likely to take in response
 
 You’re under an urgent deadline to analyze data For a senior leader by tomorrow. This data includes sensitive Employee information. Per company policy, sensitive data should only be exceed on company equipment. You are working after business hours and unfortunately, the data analysis software on your work laptop is running into errors and you are unable to fix it.
 
-Which action would you be most likely taken response
+Which action would you be most likely taken response?
 - Email the data to your personal laptop to try to run the analysis there
 - Send a data to a coworker who does not normally have access to the data to try the analysis
 - **Explain explain to the senior leader that you will miss the deadline due to technical difficulties**
 - Remove the confidential parts of the data to try running the analysis on your personal laptop
 
-Which action would you be most likely taken response
+Which action would you be least likely taken response?
 - **Email the data to your personal laptop to try to run the analysis there**
 - Send a data to a coworker who does not normally have access to the data to try the analysis
 - Explain explain to the senior leader that you will miss the deadline due to technical difficulties
@@ -252,14 +258,14 @@ Which action would you be most likely taken response
 
 Your team has recently shared a confidential report with higher level leaders that should not be shared on not employee equipment. while the main author of the report is out on vacation one of the leaders asked for an urgent follow up question about the report you send a text message to your coworker, but they did not remember the details of the report and they only have their personal laptop with them while on vacation.
 
-Which action would you be most likely to take in response
+Which action would you be most likely to take in response?
 - Contact your coworker and read the report section to them
 - **Ask the stakeholder if you can provide a response the following week**
 - Email a copy of the report to your coworkers personal email account
 - Schedule a video video conference with your coworker and share the report section on your screen
 
 
-Which action would you be most likely to take in response
+Which action would you be least likely to take in response?
 - Contact your coworker and read the report section to them
 - Ask the stakeholder if you can provide a response the following week
 - **Email a copy of the report to your coworkers personal email account**
@@ -273,7 +279,7 @@ Which action would you be most likely to take your response?
 - Offer unauthorized discount pricing to encourage your client to commit to a sale
 - Ask your coworker if they would be willing to share credit for one of their clients
 
-Which action would you be most likely to take your response?
+Which action would you be least likely to take your response?
 - Ask your client to buy this year so that you can meet your goal
 - Quickly contact additional potential clients to try and secure another sale
 - **Offer unauthorized discount pricing to encourage your client to commit to a sale**
@@ -283,13 +289,13 @@ Which action would you be most likely to take your response?
 As a new software engineer, you have been assigned a project With a tight timeline involving building new features for a software. You used to work at a competitor company and built similar software features although your previous companies policy states that the work you produced during your employment remains their property. Your coworker asked if you could share any of the code you use in your previous role to help complete the project.
 
 
-Which action would you be most likely to take a response
+Which action would you be most likely to take a response?
 - Referred to your previous code as needed, but do not send it to anyone else
 - Send the code to your coworker on the condition that they will be used for the current project only
 - Share with your team a list of general tips you learned from your work with the competitor
 - **Explain that the code is the competitors intellectual property and cannot be shared**
 
-Which action would you be most likely to take a response
+Which action would you be least likely to take a response?
 - Referred to your previous code as needed, but do not send it to anyone else
 - **Send the code to your coworker on the condition that they will be used for the current project only**
 - Share with your team a list of general tips you learned from your work with the competitor
@@ -297,13 +303,13 @@ Which action would you be most likely to take a response
 
 You’re searching for a productivity tool for your team to use your best friend owns a star company that makes software that seems to be a good option although you haven’t evaluated other options yet company policies says that you must objectively examine various options when looking for outside vendors and should not select vendors just because you have a personal connection with them. However, if your friend signed up, doesn’t get a big account soon, they will lose their funding.
 
-Which action would you be most likely to take
+Which action would you be most likely to take?
 - **Delegate the decision to someone else who does not have a personal connection to any vendors**
 - Commit to purchasing your friend software, assuming it is most likely a good tool
 - Offered to purchase your friend software for a temporary trial run
 - Deliberately select a different vendor with whom you have no connection to
 
-Which action would you be most likely to take
+Which action would you be least likely to take?
 - Delegate the decision to someone else who does not have a personal connection to any vendors
 - **Commit to purchasing your friend software, assuming it is most likely a good tool**
 - Offered to purchase your friend software for a temporary trial run
@@ -317,7 +323,7 @@ Which action would you be most likely to take your response?
 - Work on your own ideas without consulting your manager or team
 - Politely ask your manager about why they are not prioritize your ideas
 
-Which action would you be most likely to take your response?
+Which action would you be least likely to take your response?
 - Discuss with your manager, the team’s priorities and how your ideas could support division
 - **Propose your ideas to the competitor company to see if they show interest**
 - Work on your own ideas without consulting your manager or team
