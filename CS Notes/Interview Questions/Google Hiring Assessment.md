@@ -1,107 +1,156 @@
 1. I often have to be reminded to complete my tasks.
 	1. Strongly Disagree
+
 2. I write reports with an emphasis on speed over accuracy 
 	1. strong disagree
+
 3. I try to anticipate what questions the audience will ask before giving a presentiein
 	1. Strongly agree
+
 4. I search for ways to compromoise with other to reach mutual goals at work
 	1. Strongly agree
+
 5. I adjust work presentations according to the need of the people attending
 	1. Strongly agree
+
 6. I avoid seeking opportunities to collaborate with others I work with
 	1. Strongly disagree
+
 7. I try to explore every detail of challenging situations that I encounter at work
 	1. Strongly agree
+
 8. I share resources with my colleagues to help them complete their work
 	1. Strongly agree
+
 9. I avoid participating in projects that require feedback from colleagues
 	1. Strongly disagree
+
 10. I help colleagues understand when work does not align with the objectives
 	1. Strongly agree
+
 11. I ask for clarification if project goals seem to change
 	1. Strongly agree
+
 12. I complete my tasks effectively despite changing environments
 	1. Strongly agree
+
 13. I can be flexible when objectives change at work
 	1. Strongly agree
+
 14. I listen to and consider opinions that are different than mine at work
 	1. Strongly agree
+
 15. I set aside time to practice work presentations
 	1. Agree
+
 16. I prioritize familiarizing myself with a projects process changes
 	1. Strongly agree
+
 17. I include relevant background information when communicating with colleagues
 	1. Strongly agree
+
 18. I consider many types of solutions when I have difficult work assignments
 	1. Strongly agree
+
 19. I review relevant background materials before starting a new task
 	1. Strongly agree
+
 20. I identify collaboration opportunities with individuals at my workplace
 	1. Strongly agree
+
 21. I commit to tasks that my colleagues ask for help with even if I may not have the time
 	1. Disagree
+
 22. When making decisions at work, I consider how time sensitive the issue is
 	1. Strongly agree
+
 23. I identify the most important tasks and prioritize accordingly
 	1. Strongly agree
+
 24. I use the expertise of my colleagues to develop solutions to work problems 
 	1. Strongly agree
+
 25. I identify potential risks before I decide on a course of action
 	1. Strongly agree
+
 26. I can overlook small, but important, errors in my work 
 	1. Strongly disagree 
+
 27. I am able to succeed in ambiguous work situations 
 	1. Strongly agree
+
 28. I seek the perspective of my colleagues to consider a wider range of factors that may impact the results of a project 
 	1. Strongly agree
+
 29. I need daily supervision when completing task at work
 	1. Strongly disagree
+
 30. I quickly adjust my pre-existing work plans to meet changes in project goals
 	1. Agree
+
 31. I try to gather information about the underlying issue when problem-solving at work
 	1. Strongly agree
+
 32. I offer help to my colleagues to make sure tasks are completed by the due date 
 	1. Strongly agree
+
 33. I recognize how my colleagues strengths can benefit our projects
 	1. Agree
+
 34. I explore many solutions in response to challenges at work
 	1. Strongly agree
+
 35. I feel confident making decisions quickly when I have all the required information 
 	1. Strongly agree
+
 36. I cannot progress on a project when I don’t have all the information to need to complete a task
 	1. Agree
+
 37. I apply a new solution to a problem if the first solution does not work
 	1. Strongly agree
+
 38. When deciding between projects, I usually pick the project that will allow me to avoid working with others 
 	1. Strongly disagree 
+
 39. I ask others how they prefer I communicate with them at work
 	1. Strongly agree
+
 40. I am decisive even when the outcome is uncertain 
 	1. Strongly agree
+
 41. I am mindful of how my word choices impacts my presentations
 	1. Strongly agree
+
 42. I stay focused on tasks that lack defined due dates
 	1. Strongly agree
+
 43. I help my colleagues navigate unclear situations at work
 	1. Strongly agree
+
 44. I ask for others inputs when solving a work problem 
 	1. Strongly agree
+
 45. I understand how my colleagues strengths contribute to our goals
 	1. Agree
+
 46. I am mindful of communicating clearly with colleagues 
 	1. Strongly agree
+
 47. I structure my time so that I can complete task by due date
 	1. Strongly agree
+
 48. I keep detailed notes about decisions made in meetings 
 	1. Strongly agree
+
 49. My coworkers would call me dependable
 	1. Strongly agree
+
 50. I require clear instructions at work to be effective
 	1. Agree
 
 
 Which action would you be most likely to take in response?
-- **Politely decline a gift card form the client**
+- <u>Politely decline a gift card form the client</u>
 - Seek manager permission and then accept a gift
 - Offer to give half of the cash value back to the client
 - Accept but share the give with the team
@@ -109,14 +158,14 @@ Which action would you be most likely to take in response?
 Which action would you be least likely to take in response?
 - Politely decline a gift card form the client
 - Seek manager permission and then accept a gift
-- **Offer to give half of the cash value back to the client**
+- <u>Offer to give half of the cash value back to the client</u>
 - Accept but share the give with the team
 
 
 
 Which action would you be most likely to take in response?
 - Suggest your coworker speak to the new analyst about the comment
-- **Talk to the person who made that comment about how the joke was inappropriate** 
+- <u>Talk to the person who made that comment about how the joke was inappropriate</u>
 - Send out a general email to your team about respecting other coworkers
 - Give the coworker who received the comment advice on how to better fit into the workplace 
 
@@ -124,20 +173,20 @@ Which action would you be least likely to take in response?
 - Suggest your coworker speak to the new analyst about the comment
 - Talk to the person who made that comment about how the joke was inappropriate 
 - Send out a general email to your team about respecting other coworkers
-- **Give the coworker who received the comment advice on how to better fit into the workplace** 
+- <u>Give the coworker who received the comment advice on how to better fit into the workplace</u>
 
 
 
 Which action would you be most likely to take in response?
 - Ask your manager if an exception to the policy can be made since you could use the extra income
-- **Reject the job offer to maintain your contract with your employer**
+- <u>Reject the job offer to maintain your contract with your employer</u>
 - Accept the job offer and chat what you learn with your current coworkers 
 - Ask your coworkers who work multiple jobs whether you should accept the offer
 
 Which action would you be least likely to take in response?
 - Ask your manager if an exception to the policy can be made since you could use the extra income
 - Reflect the job offer to maintain your contract with your employer
-- **Accept the job offer and chat what you learn with your current coworkers** 
+- <u>Accept the job offer and chat what you learn with your current coworkers</u>
 - Ask your coworkers who work multiple jobs whether you should accept the offer
 
 
@@ -145,12 +194,12 @@ Which action would you be least likely to take in response?
 Which action would you be least most to take in response?
 - Offer to accept a less expensive gift instead of the expensive one they initially offered
 - Accept the gift since you do not want to be rude, and you want to avoid offending the client
-- **Thank the client for their kind offer and politely decline the gift**
+- <u>Thank the client for their kind offer and politely decline the gift</u>
 - Ask if the client could extend an employee discount so you can purchase the product at a discount
 
 Which action would you be least likely to take in response?
 - Offer to accept a less expensive gift instead of the expensive one they initially offered
-- **Accept the gift since you do not want to be rude, and you want to avoid offending the client**
+- <u>Accept the gift since you do not want to be rude, and you want to avoid offending the client</u>
 - Thank the client for their kind offer and politely decline the gift
 - Ask if the client could extend an employee discount so you can purchase the product at a discount
 
@@ -161,7 +210,7 @@ As a sales employee, your company’s annual sales goal deadline is coming up so
 
 Which action would you be most likely to take in response?
 - Ask your manager if you could lose your sales goal for this year
-- **Inform your manager of the error that you discovered** 
+- <u>Inform your manager of the error that you discovered</u>
 - Count the credit towards your goal, since you did not intentionally create the error
 - Ask your manager whether it would be possible to extend the deadline for the goal
 
