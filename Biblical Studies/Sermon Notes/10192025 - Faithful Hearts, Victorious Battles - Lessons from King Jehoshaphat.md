@@ -1,7 +1,7 @@
 2 Chronicles 17:3-6; 18:2-4,31-32; 19:1-9; 20:1-6, 15-25
 
 1. Faithfulness brings blessing and strength
-2. Compromise with evil lieads to judgements
+2. Compromise with evil leads to judgements
 3. God's mercy perseveres through prayer and worship
 
 #### Chapter 17
