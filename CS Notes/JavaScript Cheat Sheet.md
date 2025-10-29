@@ -504,3 +504,4 @@ if (condition) {
 - `textContent`  
 	- Gets or sets the **text content** of a node and all its descendants, ignoring HTML tags.  
 		`element.textContent = "Hello World";`
+
