@@ -504,3 +504,351 @@ if (condition) {
 - `textContent`  
 	- Gets or sets the **text content** of a node and all its descendants, ignoring HTML tags.  
 		`element.textContent = "Hello World";`
+
+---
+
+
+# JSONs
+
+**JSON (JavaScript Object Notation)** is a lightweight data format used to store and exchange data.
+- It’s **language-independent**, but based on JavaScript syntax.
+- Commonly used for **APIs**, **configuration files**, and **data storage**.
+- Data is stored as **key–value pairs**.
+- Keys are always **strings** in **double quotes**.
+- Values can be:
+  - String (`"text"`)
+  - Number (`123`)
+  - Boolean (`true` / `false`)
+  - Array (`[1, 2, 3]`)
+  - Object (`{"a": 1, "b": 2}`)
+  - `null`
+
+Example:
+```json
+{
+  "name": "Elven",
+  "age": 24,
+  "isDeveloper": true,
+  "skills": ["JavaScript", "React", "Tailwind"],
+  "address": {
+    "city": "New York",
+    "zip": "10001"
+  }
+}```
+
+- `JSON.stringify()`
+	- Converts a JSON object to a JSON string
+		`const user = { name: "Elven", age: 24 };`
+		`const jsonString = JSON.stringify(user);`
+		`console.log(jsonString); // '{"name":"Elven","age":24}'`
+
+- `JSON.parse()`  
+	- Converts a **JSON string** back into a **JavaScript object**.  
+		```js
+		const jsonData = '{"name":"Elven","age":24}';
+		const userObj = JSON.parse(jsonData);
+		console.log(userObj.name); // "Elven"
+		```
+
+- `JSON.stringify(value, replacer, space)`  
+	- Converts an object to a JSON string with optional parameters:  
+		- `replacer`: Function or array to filter or modify values  
+		- `space`: Adds indentation for readability  
+		```js
+		const data = { name: "Elven", age: 24, password: "secret" };
+		const filtered = JSON.stringify(data, ["name", "age"], 2);
+		console.log(filtered);
+		/*
+		{
+			"name": "Elven",
+			"age": 24
+		}
+		*/
+		```
+
+- **JSON Restrictions**
+	- JSON **cannot** contain:
+		- Functions  
+		- `undefined`  
+		- Comments  
+		- Single quotes (`'`)  
+	- All keys and strings **must use double quotes ("")**
+
+- **Common Use: API Communication**
+	```js
+	fetch("https://api.example.com/user")
+			.then(response => response.json())
+			.then(data => console.log(data));	```
+
+- **Common Use: Local Storage**
+	```js
+	const settings = { theme: "dark" };
+	localStorage.setItem("settings", JSON.stringify(settings));
+
+	const loaded = JSON.parse(localStorage.getItem("settings"));
+	console.log(loaded.theme); // "dark"
+	```
+
+- **Deep Copy Using JSON**
+	- Create a **clone** of an object (excluding functions or special types).  
+		```js
+		const original = { a: 1, b: { c: 2 } };
+		const copy = JSON.parse(JSON.stringify(original));
+		copy.b.c = 5;
+		console.log(original.b.c); // still 2
+		```
+
+---
+
+# Promises
+
+- `Promise`  
+	- A **Promise** represents a value that may be **available now, later, or never**.  
+	- Used for **asynchronous operations** such as fetching data or reading files.  
+	- JavaScript is single-threaded, so it can only do one thing at a time
+	- A Promise has **three states**:  
+		- `pending` → initial state  
+		- `fulfilled` → operation completed successfully  
+		- `rejected` → operation failed  
+		```js
+		const promise = new Promise((resolve, reject) => {
+			let success = true;
+			if (success) resolve("✅ Operation successful!");
+			else reject("❌ Operation failed!");
+		});
+		```
+
+- `.then()`  
+	- Runs when a promise is **fulfilled** (successful).  
+	- Takes a **callback function** that receives the resolved value.  
+		```js
+		promise.then(result => {
+			console.log(result); // "✅ Operation successful!"
+		});
+		```
+
+- `.catch()`  
+	- Runs when a promise is **rejected** (failed).  
+	- Handles errors or rejected outcomes.  
+		```js
+		promise.catch(error => {
+			console.error(error); // "❌ Operation failed!"
+		});
+		```
+
+- `.finally()`  
+	- Runs **after** a promise is settled — whether fulfilled or rejected.  
+	- Useful for cleanup actions.  
+		```js
+		promise
+			.then(result => console.log(result))
+			.catch(error => console.error(error))
+			.finally(() => console.log("Promise finished."));
+		```
+
+- **Promise Example: Fetch API**
+	- Promises are heavily used with the **Fetch API** for network requests.  
+		```js
+		fetch("https://api.example.com/data")
+			.then(response => response.json())
+			.then(data => console.log(data))
+			.catch(error => console.error("Fetch failed:", error))
+			.finally(() => console.log("Request completed"));
+		```
+
+- `Promise.all()`  
+	- Runs **multiple promises in parallel** and waits for **all** to resolve.  
+	- If any promise rejects, the entire `Promise.all()` rejects.  
+		```js
+		const p1 = Promise.resolve("A");
+		const p2 = Promise.resolve("B");
+		const p3 = Promise.resolve("C");
+
+		Promise.all([p1, p2, p3]).then(values => console.log(values)); // ["A", "B", "C"]
+		```
+
+- `Promise.race()`  
+	- Returns the result of the **first** promise to settle (resolve or reject).  
+		```js
+		const slow = new Promise(resolve => setTimeout(() => resolve("Slow"), 2000));
+		const fast = new Promise(resolve => setTimeout(() => resolve("Fast"), 500));
+
+		Promise.race([slow, fast]).then(result => console.log(result)); // "Fast"
+		```
+
+- `Promise.allSettled()`  
+	- Waits for **all promises** to settle (fulfilled or rejected).  
+	- Returns the **status** and **value/reason** for each.  
+		```js
+		const promises = [
+			Promise.resolve("Success"),
+			Promise.reject("Error"),
+			Promise.resolve("Done")
+		];
+
+		Promise.allSettled(promises).then(results => console.log(results));
+		/*
+		[
+			{ status: "fulfilled", value: "Success" },
+			{ status: "rejected", reason: "Error" },
+			{ status: "fulfilled", value: "Done" }
+		]
+		*/
+		```
+
+- `Promise.any()`  
+	- Returns the **first fulfilled** promise (ignores rejections).  
+	- Rejects only if **all promises** reject.  
+		```js
+		const p1 = Promise.reject("Fail 1");
+		const p2 = Promise.resolve("Success!");
+		const p3 = Promise.reject("Fail 2");
+
+		Promise.any([p1, p2, p3]).then(result => console.log(result)); // "Success!"
+		```
+
+- **Creating Delays with Promises**
+	- Promises can be used to create delays or timeouts.  
+		```js
+		function wait(ms) {
+			return new Promise(resolve => setTimeout(resolve, ms));
+		}
+
+		wait(1000).then(() => console.log("Waited 1 second!"));
+		```
+
+- **Async / Await**
+	- A cleaner way to handle promises using **synchronous-style** syntax.  
+	- Async functions are special functions that always return a promise and allows you to use `await` keyword inside
+	- It makes asynchronous code look and behave like synchronous code — meaning you can “pause” the function until a Promise resolves.
+		- When you call an async function, it **immediately returns a Promise**.
+		- Inside the function, you can use `await` to **pause** execution until a Promise is resolved or rejected.
+		- If the function returns a value, JavaScript automatically wraps it in a resolved Promise.
+	- `await` pauses code until the promise settles.  
+	- Great for sequential logic
+		```js
+		async function fetchData() {
+			try {
+				const response = await fetch("https://api.example.com/data");
+				const data = await response.json();
+				console.log(data);
+			} catch (error) {
+				console.error("Error:", error);
+			} finally {
+				console.log("Fetch complete.");
+			}
+		}
+
+		fetchData();
+		```
+
+- **Error Handling with Async / Await**
+	```js
+		async function getUser() {
+			try {
+				let response = await fetch("https://api.example.com/user");
+				let user = await response.json();
+				console.log(user);
+			} catch (error) {
+				console.error("Failed to load user:", error);
+			}
+		}
+
+		getUser();
+	```
+
+
+- **Promise Chain Example**
+	- Multiple `.then()` calls can be chained for sequential operations.  
+		```js
+		new Promise(resolve => resolve(2))
+			.then(num => num * 2)
+			.then(num => num + 3)
+			.then(result => console.log(result)); // 7
+		```
+
+
+### Synchronous vs Asynchronous
+
+**Synchronous Function**
+- Each line much finish running before the next one starts
+- JavaScript blocks the program until its done 
+```js
+function syncExample() {
+  console.log("Step 1: Start");
+  console.log("Step 2: Do work");
+  console.log("Step 3: End");
+}
+
+syncExample();
+console.log("Step 4: After function");
+```
+
+Output:
+```
+Step 1: Start
+Step 2: Do work
+Step 3: End
+Step 4: After function
+```
+
+**Asynchronous**
+- It starts something (like a network request, or timer), then moves on immediately while waiting for that thing to finish
+```js
+function asyncExample() {
+  console.log("Step 1: Start");
+
+  setTimeout(() => {
+    console.log("Step 2: Async task complete (after 2s)");
+  }, 2000);
+
+  console.log("Step 3: End");
+}
+
+asyncExample();
+console.log("Step 4: After function");
+```
+
+Output:
+```
+Step 1: Start
+Step 3: End
+Step 4: After function
+Step 2: Async task complete (after 2s)
+```
+
+|Type|Runs in order?|Blocks next line?|Example|
+|---|---|---|---|
+|**Synchronous**|✅ Yes|✅ Yes|Normal `console.log()`, math operations|
+|**Asynchronous**|❌ No|❌ No|`fetch()`, `setTimeout()`, reading files, API calls|
+
+ `Async` makes asynchronous code look synchronous, but it remains asynchronous
+- What really happens
+	- - The `async` keyword allows you to use `await` inside a function.
+    
+- `await` pauses **that specific async function’s execution**, **not** the entire program.
+    
+- The rest of your code (outside the function) keeps running immediately.
+    
+
+So, even though `await` _looks_ like it’s blocking (because it waits before moving to the next line **inside** the function), it’s still asynchronous under the hood.
+	```js
+	  async function example() {
+		  console.log("Start");
+		  await new Promise(resolve => setTimeout(resolve, 2000));
+		  console.log("End");
+	  }
+		
+	  example();
+	  console.log("After function call");
+	  ```
+
+output:
+```
+Start
+After function call
+End
+```
+
+- `async` / `await` makes your code _easier to read_ and _appear sequential_,  
+but JavaScript’s event loop still handles it asynchronously.
