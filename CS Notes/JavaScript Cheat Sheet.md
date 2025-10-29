@@ -350,9 +350,16 @@ if (condition) {
 - `match()`  
 	- Retrieves **matches of a string** against a search pattern (regex).  
 		`let str = "abc123"; console.log(str.match(/\d+/)); // ["123"]`
+		- `/\d+/g` → all numbers
+		- `/[A-Z]/g` → all uppercase letters
+		- `/[a-z]/g` → all lowercase letters
+		- `/hello/i` → match "hello" (case-insensitive)
 
 - `replace()`  
 	- Finds and **replaces specific text** in a string.  
+	- Only replaces the first occurrence by default
+	- replaces all with g flag
+	- case insensitive with i flag
 		`let str = "Hello World"; console.log(str.replace("World", "JS")); // "Hello JS"`
 
 - `search()`  
@@ -386,3 +393,114 @@ if (condition) {
 - `valueOf()`  
 	- Returns the **primitive value** of a string object (the raw string itself).  
 		`let strObj = new String("Hello"); console.log(strObj.valueOf()); // "Hello"`
+
+---
+
+
+# Regular Expressions (Regex)
+
+### Pattern Modifiers
+- `e` — Evaluate replacement  
+- `i` — Perform case-insensitive matching  
+- `g` — Perform global matching  
+- `m` — Perform multi-line matching  
+- `s` — Treat strings as a single line  
+- `x` — Allow comments and whitespace in pattern  
+- `U` — Non-greedy pattern  
+
+### Brackets
+- `[abc]` — Find any of the characters between the brackets  
+- `[^abc]` — Find any character **not** in the brackets  
+- `[0-9]` — Find any digit from 0 to 9  
+- `[A-z]` — Find any character from uppercase **A** to lowercase **z**  
+- `(a|b|c)` — Find any of the alternatives separated with `|`  
+
+### Metacharacters
+- `.` — Find a single character (except newline or line terminator)  
+- `\w` — Word character (alphanumeric `[A-Za-z0-9_]`)
+- `\W` — Non-word character  
+- `\d` — Digit  
+- `\D` — Non-digit character  
+- `\s` — Whitespace character  
+- `\S` — Non-whitespace character  
+- `\b` — Match at the beginning or end of a word  
+- `\B` — Match not at the beginning or end of a word  
+- `\0` — NUL character  
+- `\n` — New line character  
+- `\f` — Form feed character  
+- `\r` — Carriage return character  
+- `\t` — Tab character  
+- `\v` — Vertical tab character  
+- `\xxx` — Character specified by an **octal number** `xxx`  
+- `\xdd` — Character specified by a **hexadecimal number** `dd`  
+- `\uxxxx` — Unicode character specified by a **hexadecimal number** `xxxx`  
+
+### Quantifiers
+- `n+` — Matches any string that contains **at least one** `n`  
+- `n*` — Matches any string that contains **zero or more** occurrences of `n`  
+- `n?` — Matches any string that contains **zero or one** occurrence of `n`  
+- `n{X}` — Matches a string that contains a **sequence of X** `n`s  
+- `n{X,Y}` — Matches strings that contain a sequence of **X to Y** `n`s  
+- `n{X,}` — Matches any string that contains **at least X** `n`s  
+- `n$` — Matches any string with `n` at the **end** of it  
+- `^n` — Matches any string with `n` at the **beginning** of it  
+- `?=n` — Matches any string that is **followed by** a specific string `n`  
+- `?!n` — Matches any string that is **not followed by** a specific string `n`  
+
+---
+
+
+# DOM Node
+
+### Node Properties
+- `attributes`  
+	- Returns a **live collection** (`NamedNodeMap`) of all attributes of an element. Updates automatically when attributes change.  
+		`console.log(element.attributes["id"].value);`
+
+- `baseURI`  
+	- Provides the **absolute base URL** of the document that contains the element. Useful for resolving relative URLs.  
+		`console.log(document.body.baseURI);`
+
+- `childNodes`  
+	- Returns a **live NodeList** of all child nodes (elements, text, comments).  
+		`console.log(element.childNodes[0]);`
+
+- `firstChild`  
+	- Returns the **first child node** of an element (may be a text node).  
+		`console.log(element.firstChild);`
+
+- `lastChild`  
+	- Returns the **last child node** of an element.  
+		`console.log(element.lastChild);`
+
+- `nextSibling`  
+	- Returns the **next node** at the same tree level. May include text or comment nodes.  
+		`console.log(element.nextSibling);`
+
+- `nodeName`  
+	- Returns the **name of the node** (e.g., `"DIV"`, `"#text"`). For elements, this is the tag name.  
+		`console.log(element.nodeName);`
+
+- `nodeType`  
+	- Returns a **numeric constant** representing the type of the node.  
+		`console.log(element.nodeType); // 1 = Element, 3 = Text, 8 = Comment`
+
+- `nodeValue`  
+	- Returns or sets the **value** of a node (for text, comment, or attribute nodes).  
+		`textNode.nodeValue = "Updated text";`
+
+- `ownerDocument`  
+	- References the **document** object that the node belongs to.  
+		`console.log(element.ownerDocument === document); // true`
+
+- `parentNode`  
+	- Returns the **parent node** of an element.  
+		`console.log(element.parentNode);`
+
+- `previousSibling`  
+	- Returns the **previous node** at the same tree level.  
+		`console.log(element.previousSibling);`
+
+- `textContent`  
+	- Gets or sets the **text content** of a node and all its descendants, ignoring HTML tags.  
+		`element.textContent = "Hello World";`
