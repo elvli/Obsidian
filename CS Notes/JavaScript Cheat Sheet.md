@@ -852,3 +852,135 @@ End
 
 - `async` / `await` makes your code _easier to read_ and _appear sequential_,  
 but JavaScript’s event loop still handles it asynchronously.
+
+---
+
+# Errors
+
+- `try`  
+	- Defines a **block of code** to test for errors.  
+	- If an error occurs inside this block, control is passed to the `catch` block.  
+		```js
+		try {
+			let result = riskyOperation();
+		} catch (error) {
+			console.error("An error occurred:", error);
+		}
+		```
+
+- `catch`  
+	- Defines a **block of code to execute if an error occurs** in the `try` block.  
+		```js
+		try {
+			let result = 10 / x; // x is not defined
+		} catch (error) {
+			console.log("Error caught:", error.message);
+		}
+		```
+
+- `throw`  
+	- Used to **create custom errors** instead of relying on standard JavaScript errors.  
+		```js
+		try {
+			let age = -5;
+			if (age < 0) throw "Age cannot be negative";
+		} catch (error) {
+			console.log("Custom error:", error);
+		}
+		```
+
+- `finally`  
+	- Defines code that **executes after `try` and `catch`**, regardless of whether an error occurred.  
+		```js
+		try {
+			console.log("Trying something risky...");
+		} catch (error) {
+			console.log("Something went wrong!");
+		} finally {
+			console.log("This always runs.");
+		}
+		```
+
+### Error Object Properties
+- `name`  
+	- Sets or returns the **error name**.  
+	- Example: `"ReferenceError"`, `"TypeError"`, etc.  
+		```js
+		try {
+			undefinedFunction();
+		} catch (error) {
+			console.log(error.name); // ReferenceError
+		}
+		```
+
+- `message`  
+	- Sets or returns the **error message** as a string.  
+		```js
+		try {
+			JSON.parse("invalid");
+		} catch (error) {
+			console.log(error.message); // Unexpected token i in JSON
+		}
+		```
+
+- `EvalError`  
+	- Occurs when there’s an error in the `eval()` function (rare in modern JS).  
+		```js
+		try {
+			eval("alert('Hello'");
+		} catch (error) {
+			console.log(error.name); // EvalError
+		}
+		```
+
+- `RangeError`  
+	- Occurs when a number is **outside a valid range**.  
+		```js
+		try {
+			let num = 1;
+			num.toPrecision(500);
+		} catch (error) {
+			console.log(error.name); // RangeError
+		}
+		```
+
+- `ReferenceError`  
+	- Occurs when referencing a variable that **does not exist**.  
+		```js
+		try {
+			console.log(x); // x is not defined
+		} catch (error) {
+			console.log(error.name); // ReferenceError
+		}
+		```
+
+- `SyntaxError`  
+	- Occurs when invalid JavaScript syntax is detected.  
+		```js
+		try {
+			eval("let = 5"); // invalid syntax
+		} catch (error) {
+			console.log(error.name); // SyntaxError
+		}
+		```
+
+- `TypeError`  
+	- Occurs when a value is of the **wrong type**.  
+		```js
+		try {
+			let num = 5;
+			num.toUpperCase(); // numbers don’t have toUpperCase()
+		} catch (error) {
+			console.log(error.name); // TypeError
+		}
+		```
+
+- `URIError`  
+	- Occurs when there’s a problem in `encodeURI()` or `decodeURI()`.  
+		```js
+		try {
+			decodeURI("%");
+		} catch (error) {
+			console.log(error.name); // URIError
+		}
+		```
