@@ -98,6 +98,104 @@
 		`console.log(arr.valueOf()); // [1, 2, 3] (arrays usually return themselves)`
 
 ---
+
+# Maps / Hashes
+`const map = new Map();`  
+or  
+`const obj = {}; // plain object used as a hashmap`
+
+##### Map / Hash Methods
+
+- `set(key, value)`
+	- Add or update an element with the specified key and value
+		```js
+		map.set("name", "Elven");
+		map.set(1, "one");
+		```
+
+- `get(key)`
+	- Returns the value associated with the key
+		```js
+		console.log(map.get("name")); // "Elven"
+		```
+
+- `has(key)`
+	- Checks whether a key exists
+		```js
+		console.log(map.has("name")); // true
+		```
+
+- `delete(key)`
+	- Removes a key–value pair
+		```js
+		map.delete("name");
+		```
+
+- `clear()`
+	- Removes all entries
+		```js
+		map.clear();
+		```
+
+- `size`
+	- Returns the number of key–value pairs
+		```js
+		console.log(map.size);
+		```
+
+- `keys()`
+	- Returns an iterator with all keys
+		```js
+		for (let key of map.keys()) console.log(key);
+		```
+
+- `values()`
+	- Returns an iterator with all values
+		```js
+		for (let value of map.values()) console.log(value);
+		```
+
+- `entries()`
+	- Returns an iterator with `[key, value]` pairs
+		```js
+		for (let [key, value] of map.entries()) {
+			console.log(key, value);
+		}
+		```
+
+- `forEach(callback)`
+	- Executes a function for each key–value pair
+		```js
+		map.forEach((value, key) => console.log(key, value));
+		```
+
+##### Hash Object Methods (using `{}` instead of `Map`)
+
+- `obj[key] = value` — Add or update a key  
+- `obj[key]` — Retrieve value  
+- `delete obj[key]` — Remove key  
+- `key in obj` — Check if key exists  
+- `Object.keys(obj)` — Get array of keys  
+- `Object.values(obj)` — Get array of values  
+- `Object.entries(obj)` — Get array of `[key, value]` pairs  
+
+### 🔹 `Map()` vs `{}` (Object)
+
+| Feature               | `Map()`                                                                       | `{}` (Plain Object)                                                                    |
+| --------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Key types**         | Can be *any type* (numbers, strings, objects, arrays, functions, etc.)        | Keys are always *strings* (or symbols); numbers get converted to strings               |
+| **Insertion order**   | Maintains the insertion order of keys                                         | Does **not guarantee** key order (though modern engines often preserve it for strings) |
+| **Size**              | Has a built-in `.size` property                                               | Must use `Object.keys(obj).length` to count keys                                       |
+| **Iteration**         | Easy to iterate with `.forEach()` or `for...of`                               | Must use `for...in` or `Object.keys(obj)` / `Object.entries(obj)`                      |
+| **Performance**       | Optimized for frequent additions/removals                                     | Optimized for small, static sets of string keys                                        |
+| **Prototype keys**    | Doesn’t inherit from `Object.prototype`, so no accidental key conflicts       | Inherits from `Object.prototype`, so keys like `"toString"` can clash                  |
+| **Methods available** | `.set()`, `.get()`, `.has()`, `.delete()`, `.clear()`, `.keys()`, `.values()` | Basic property access: `obj[key]`, `delete obj[key]`, `key in obj`                     |
+| **Serialization**     | Not directly serializable with `JSON.stringify()`                             | Can easily be serialized with `JSON.stringify(obj)`                                    |
+| **When to use**       | When you need key-value pairs with non-string keys or frequent insert/delete  | When you need a simple structure for data with string keys                             |
+
+
+---
+
 # Operators
 
 ### Basic Operators
