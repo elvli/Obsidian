@@ -17,6 +17,11 @@ A lot of times we’re giving God our leftovers, while God is giving us his best
 Thessalonians 2:6-13
 People were tired and gave up on fellowshipping and worship because they were tired
 
+Fellowship and worship provides a spiritual rest that we can’t be fulfilled in any other way
+
+How to treat fellowship as rest
+- love God first
+
 We shouldn’t get tired doing the good works for god
 
 1. If we want to give God the best, we will work hard
