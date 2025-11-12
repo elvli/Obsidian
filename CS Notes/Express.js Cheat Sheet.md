@@ -65,11 +65,15 @@ These methods represent different types of actions a client can request:
 
 #### Example: Separate GET and POST Routes
 ``` js
+// Handle GET requests to the /hello path
 app.get('/hello', (req, res) => {
+    // Send a plain text response back to the client
     res.send('GET request');
 });
 
+// Handle POST requests to the /hello path
 app.post('/hello', (req, res) => {
+    // Send a plain text response back to the client
     res.send('POST request');
 });
 ```
@@ -79,28 +83,56 @@ app.post('/hello', (req, res) => {
 Every route handler receives two important objects:
 - **`req`** – incoming request (data sent _from_ the client)
 - **`res`** – outgoing response (data sent _to_ the client)
-    
+
 #### Request Object (`req`)
 
-The `req` object contains all information about the incoming request.
+The **`req` (request) object** represents **everything the client sends to your server** when it makes a request.  
+It contains all the data Express receives from the browser, frontend app, Postman, cURL, etc.
+
+It includes details such as:
+- **The URL the client requested**
+- **Any route parameters** (e.g., `/users/42`)
+- **Any query strings** (e.g., `/search?q=apple&page=2`)
+- **Any body data** sent in a POST/PUT request
+- **Headers** the client sends (cookies, auth tokens, content type, etc.)
+- **The HTTP method** (`GET`, `POST`, etc.)
+- **Information about the client** (IP address, user-agent)
 #### 1. `req.params` — Route parameters
 
 Used for dynamic segments in the URL.
 ``` js
+// Create a GET route that matches URLs like /user/123 or /user/42
+// The ":id" part is a route parameter — it captures whatever value appears in that position.
 app.get('/user/:id', (req, res) => {
-    console.log(req.params.id); // e.g., 42
-	res.send('User route'); 
+
+    // Access the dynamic value from the URL using req.params.id
+    // For example, if the client visits /user/42, this will log "42"
+    console.log(req.params.id);
+
+    // Send a response back to the client
+    res.send('User route');
 });
+
 ```
 
 #### 2. `req.query` — Query string data
 
 For URLs like: `/search?q=react&page=2`
 ``` js
-app.get('/search', (req, res) => { 
-    console.log(req.query.q);   // "react" 
-    console.log(req.query.page) // "2"
-    res.send('Search route'); 
+// Create a GET route that matches URLs like:
+// /search?q=react&page=2
+app.get('/search', (req, res) => {
+
+    // Access the value of the "q" query string parameter
+    // Example: for /search?q=react, req.query.q === "react"
+    console.log(req.query.q);   // "react"
+
+    // Access the value of the "page" query string parameter
+    // Example: for /search?page=2, req.query.page === "2"
+    console.log(req.query.page); // "2"
+
+    // Send a response back to the client
+    res.send('Search route');
 });
 ```
 
@@ -108,11 +140,26 @@ app.get('/search', (req, res) => {
 
 Available when using body-parsing middleware:
 ``` js
+// This middleware tells Express to automatically parse JSON data
+// in the body of incoming requests.
+// Without this, req.body would be undefined for JSON requests.
 app.use(express.json()); // enables JSON body parsing
-```
-Example:
 
-`app.post('/login', (req, res) => {     console.log(req.body.email);     res.send('Login route'); });`
+
+// Create a POST route for /login
+app.post('/login', (req, res) => {
+
+    // Access data sent in the request body.
+    // For example, if the client sends:
+    // { "email": "test@example.com", "password": "1234" }
+    // then req.body.email === "test@example.com"
+    console.log(req.body.email);
+
+    // Send a response back to the client
+    res.send('Login route');
+});
+
+```
 
 #### Response Object (`res`)
 
@@ -152,15 +199,25 @@ Redirects the client to another URL.
 res.redirect('/login');
 ```
 
-# **Putting It All Together**
+#### Putting it all Together
 
 Here’s a complete example showing parameters, queries, body, and responses:
 
-`app.use(express.json());  app.get('/items/:id', (req, res) => {     console.log(req.params.id);     console.log(req.query.sort);     res.json({ message: "Item fetched" }); });  app.post('/items', (req, res) => {     console.log(req.body);     res.status(201).json({ message: "Item created" }); });`
+``` js
+app.use(express.json());
 
----
+app.get('/items/:id', (req, res) => {
+    console.log(req.params.id);
+    console.log(req.query.sort);
+    res.json({ message: "Item fetched" });
+});
 
-If you'd like, I can rewrite the next section of your study guide too (middleware, routing grouping, request lifecycle, etc.).
+app.post('/items', (req, res) => {
+    console.log(req.body);
+    res.status(201).json({ message: "Item created" });
+});
+```
+
 ---
 
 # Middleware
