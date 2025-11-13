@@ -94,12 +94,9 @@ We met twice a week to share updates, raise issues, and adjust our plan. Consist
 
 ## Strengths
 
-- I’m very adaptable and proactive when learning new technologies.  
-    For example, even though my current job discussed React heavily during interviews, the codebase ended up being PHP/Laravel — something I had never used. I taught myself quickly and made meaningful contributions early on.
-    
-- I take accountability.  
-    I follow through on tasks, communicate when I hit roadblocks, and take responsibility for both successes and mistakes. I focus on understanding problems and improving each time.
-    
+- One of my biggest strengths is how adaptable and proactive I am when learning new technologies. A good example is my current role: during the interview process, most of the conversation centered around React and JavaScript, so I assumed I’d be working in a typical MERN stack environment. When I joined, I found out the entire codebase was built on PHP and Laravel, a language framework I had never touched before. Instead of feeling overwhelmed, I stepped up immediately. I dove into documentation, studied the existing codebase, and built small features to understand the architecture. Within a short time, I was contributing to core features, refactoring pages for better structure, and helping modernize the front end. That experience showed me that I can pick up new tools quickly and deliver value even outside my comfort zone.
+
+- Another strength of mine is that I take accountability for my work. I follow through on tasks, communicate early when I hit roadblocks, and take responsibility for both my successes and my mistakes. When something doesn’t go as planned, I don’t try to shift blame — I focus on understanding what happened, fixing it, and learning from it so the same issue doesn’t repeat. I think this mindset has helped me build trust with my teammates and manage my work more effectively.
 
 ---
 
@@ -115,47 +112,27 @@ I pause, reassess the situation carefully, communicate with the team, and make d
 # Questions to Ask
 
 ## About the Role
-
 - What does a typical day look like for a developer in this role?
-    
 - How is the development team structured — frontend, backend, or full stack collaboration?
-    
 - What projects would I be working on in the first few months?
-    
 - How does the team handle code reviews and collaboration?
-    
 - What technologies or frameworks are you using besides MERN?
-    
 
 ## Growth and Learning
-
 - I’ve read that BeaconFire emphasizes training — could you tell me more about what that looks like?
-    
 - Are there opportunities for mentorship or working alongside senior engineers?
-    
 - How do you support continuous learning or professional development?
-    
 
 ## Team and Culture
-
 - How would you describe the team culture?
-    
 - What qualities make someone successful in this role or on this team?
-    
 - How does BeaconFire encourage collaboration across departments or project teams?
-    
 
 ## Company Direction and Impact
-
 - BeaconFire works with many industries — how do you choose which projects to take on?
-    
 - What sets BeaconFire apart from other tech consulting companies?
-    
 - How does BeaconFire measure success for a project or a developer?
-    
 
 ## Closing / Next Steps
-
 - What are the next steps in the interview process?
-    
 - Is there anything I can prepare or review before the next stage?
