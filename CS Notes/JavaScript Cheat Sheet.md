@@ -1082,3 +1082,41 @@ but JavaScript’s event loop still handles it asynchronously.
 			console.log(error.name); // URIError
 		}
 		```
+
+---
+
+# HTTP Response Codes
+#### 1xx – Informational
+- **100** Continue
+- **101** Switching Protocols
+#### 2xx – Success
+- **200** OK
+- **201** Created
+- **202** Accepted
+- **204** No Content
+#### 3xx – Redirects
+- **301** Moved Permanently
+- **302** Found
+- **304** Not Modified
+#### 4xx – Client Errors
+- **400** Bad Request
+- **401** Unauthorized
+- **403** Forbidden
+- **404** Not Found
+- **409** Conflict
+- **429** Too Many Requests
+#### 5xx – Server Errors
+- **500** Internal Server Error
+- **501** Not Implemented
+- **502** Bad Gateway
+- **503** Service Unavailable
+#### Quick Express examples
+
+``` js
+res.status(200).json({ message: "OK" })
+res.status(201).json({ message: "Created" })
+res.status(400).json({ error: "Bad request" })
+res.status(401).json({ error: "Unauthorized" })
+res.status(404).json({ error: "Not found" })
+res.status(500).json({ error: "Server error" })
+```
