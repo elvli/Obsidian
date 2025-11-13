@@ -4,10 +4,10 @@
 2. I write reports with an emphasis on speed over accuracy 
 	1. strong disagree
 
-3. I try to anticipate what questions the audience will ask before giving a presentiein
+3. I try to anticipate what questions the audience will ask before giving a presentation
 	1. Strongly agree
 
-4. I search for ways to compromoise with other to reach mutual goals at work
+4. I search for ways to compromise with other to reach mutual goals at work
 	1. Strongly agree
 
 5. I adjust work presentations according to the need of the people attending
