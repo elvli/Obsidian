@@ -1,3 +1,4 @@
+
 2 Chronicles 24-26
 
 1. You will do the right thing
@@ -20,3 +21,4 @@ Remain steadfast in your faith, even when those who have guided you are no longe
 
 Guard against idolatry. Be vigilant against influences that draw you away from God, ensuring that he remains the center of your life.
 
+People change but God never changes
