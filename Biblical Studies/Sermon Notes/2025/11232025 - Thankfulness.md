@@ -10,9 +10,24 @@ Sometimes we need that simplicity.
 	3. He’ll tie us down
 	4. Joy is the constant state of being in Christ 
 2. To live in thankfulness, we need to stay connected 
+	1. We have to start from a place where we desire and want to be with God
+	2. 
 3. To live in thankfulness, we need to live his will
 	1. We need to get rid of the pessimistic outlook and worldly views that we have.
 	2. Nobody’s will will be perfect
-	3. Give thanks in all circumstances do this is the will of God v.18
+	3. Give thanks in all circumstances for this is the will of God v.18
 	4. God wants us to live his will
-	5. 
+
+We have to seek his will first. Then we can stay connected and rejoice.
+
+Fruits of the Spirit
+- Love
+- Joy
+- Peace
+- Patience
+- Kindness
+- Goodness
+- Faithfulness
+- Gentleness
+- Self Control
+
