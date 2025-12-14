@@ -2,10 +2,8 @@
 
 Ch. 33 King Manasseh
 - did evil in the sight of the Lord
-
-1. He rebuilt the high places. Erected altars to Baal, Asheroth all the “hosts of heaven” (verse 3)
-2. Built altars in the house of the Lord said His presence would be (verse 4)
-3. H
+- He rebuilt the high places. Erected altars to Baal, Asheroth all the “hosts of heaven” (verse 3)
+- Built altars in the house of the Lord said His presence would be (verse 4)
 
 Back worship - fertility and weather God
 - forms of worship included
@@ -21,7 +19,7 @@ God influence is what leads you.
 
 First you have to understand the band of Christian values.
 
-1. We seek to understand cants of Christian belief (dealing with hypocrisy and having a changed mindset)
+1. We seek to understand values of Christian beliefs (dealing with hypocrisy and having a changed mindset)
 	1. King Josiah gets rid of an potential bad influences
 	2. He treasures the laws, does not see them as hate but as mercy. He gives us real hope, not fake or misleading
 2. We must remember and remember the times we have with God (not just each other)
@@ -41,3 +39,8 @@ First you have to understand the band of Christian values.
 
 With gods influence you will have clarity
 
+How do we spend time with God?
+- prayer
+	- entails listens to God, quieting your heart
+
+Why are we trying to please others when we’re following Christ
