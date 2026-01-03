@@ -10,10 +10,10 @@
 
 ### Mind
 - Continue to read 2-3 chapters a day
-- Make/finish up study guides for React, JavaScript, CSS, Express, Node, MongoDB, MySql/SQL, Laravel, PHP
+- Make/finish up study guides for React, JavaScript, CSS, Express, Node, MongoDB, MySQL/SQL, Laravel, PHP
 
 ### Body
-- Reach 180 lbs, maintain afterwords
+- Reach 180 lbs., maintain afterwards
 - Train for marathon
 	- start with running 2 mi twice a week, start ramping up from there, distance > time is the focus
 - Get bigger forearms and shoulders
