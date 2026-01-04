@@ -10,3 +10,6 @@ John 14:3 - it is the father, living in me, who is doing his work
 
 Kenosis - Greek word meaning emptying oneself
 
+Hebrews 2:17 - He had to be human to die in our place 
+
+Philippians- Love one another, put yourself aside, forget yourself, serve others like Jesus
