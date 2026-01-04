@@ -1,7 +1,7 @@
 Romans 1:20, Isaiah 7:14
 
 1. The good news, foretold
-
+	1. 
 2. The good news, Foreknown
 	1. Luke 1:26-33
 	2. 

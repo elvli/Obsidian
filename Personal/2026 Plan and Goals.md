@@ -10,10 +10,10 @@
 
 ### Mind
 - Continue to read 2-3 chapters a day
-- Make/finish up study guides for React, JavaScript, CSS, Express, Node, MongoDB, MySQL/SQL, Laravel, PHP
+- Make/finish up study guides for React, JavaScript, CSS, Express, Node, MongoDB, MySql/SQL, Laravel, PHP
 
 ### Body
-- Reach 180 lbs., maintain afterwards
+- Reach 180 lbs, maintain afterwords
 - Train for marathon
 	- start with running 2 mi twice a week, start ramping up from there, distance > time is the focus
 - Get bigger forearms and shoulders
@@ -38,7 +38,7 @@
 
 ### Finances
 - Map out my income and expenses so I know what is coming in a out of my account
-- Start putting money into a IRA or brokerage and get that set up
+- ~~Start putting money into a IRA or brokerage and get that set up~~ 
 - Take a look at other investment opportunities stocks etc. Just become more knowledgeable in that area first
 - Make money
 
