@@ -15,3 +15,5 @@ God has already been giving us his best, when we give him the best, we are just 
 	4. The same goes for Jesus, if you love him, you would always want to give him the best
 	5. God, a loving father, would always give us the best
 
+Reminding ourselves that we do all for the glory of God. When we do, it is most fulfilling.
+
