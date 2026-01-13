@@ -123,6 +123,18 @@ console.log(count);   // ❌ still prints old value`
 
 React batches state updates, so your console log runs **before** state is updated.
 
+# Why batching matters here
+
+Without batching:
+- Mouse move → >100 renders/sec 
+- Typing → render per keystroke
+- Animations → UI lag
+- Live data → wasted work
+
+With batching:
+- React groups updates into a **single render pass**
+- UI still stays responsive
+
 **✔️ Correct**  
 Use `useEffect` to observe changes:
 ```
