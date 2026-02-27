@@ -72,3 +72,7 @@ Agape love is not about how we feel, but how we choose to act toward others, eve
 - Faith trusts God before we see Him.
 - Hope looks forward to what God has promised.
 - Love is the greatest because it never ends and reflects God’s nature.
+
+### Questions
+
+What is one area where God might be calling you to grow in agape love?
