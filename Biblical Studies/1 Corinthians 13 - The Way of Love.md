@@ -1,6 +1,6 @@
 ### Context
 
-The Corinthian church is super messed up. The church was arguing over and divided a bunch of things like leadership, lawsuits, food sacrifices, spiritual gifts. With the last chapter, we saw how they were using their gifts to compete with each other. Showing off, claiming superiority over one another.
+The Corinthian church is super messed up. The church was arguing over and divided a by bunch of things like leadership, lawsuits, food sacrifices, spiritual gifts. With the last chapter, we saw how they were using their gifts to compete with each other. Showing off, claiming superiority over one another.
 
 ### v.1-3
 
