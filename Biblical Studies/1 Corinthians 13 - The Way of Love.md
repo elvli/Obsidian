@@ -1,3 +1,4 @@
+
 ### Context
 
 The Corinthian church is super messed up. The church was arguing over and divided a by bunch of things like leadership, lawsuits, food sacrifices, spiritual gifts. With the last chapter, we saw how they were using their gifts to compete with each other. Showing off, claiming superiority over one another.
@@ -7,6 +8,7 @@ The Corinthian church is super messed up. The church was arguing over and divide
 - Paul lists some impressive spiritual abilities: tongues, prophecy, deep knowledge, miracle-working faith.
 - He then moves to extreme personal sacrifice: giving away all possessions and even dying for the faith.
 - Despite how spiritual these actions appear, Paul says without love they amount to nothing and profit nothing.
+- “Without love” means acting in spiritual power, generosity, or sacrifice while lacking genuine, self-giving concern for God and others. It means doing the right thing for the wrong reason, and in God’s economy, motive matters as much as action.
 - The issue is not the value of gifts or sacrifice themselves, but the motive behind them.
 
 Even self-sacrifice can be self-centered (Matthew 6:2)
@@ -16,7 +18,7 @@ Even self-sacrifice can be self-centered (Matthew 6:2)
 Paul explains what love truly is by describing how it acts.
 
 In Greek there are four kinds/words for love
-- **Phileo** - love between close friends or brothers, brotherly love.
+- **Philia** - love between close friends or brothers, brotherly love.
 - **Eros** - romantic love.
 - **Storge** - familial love between parents, children, and close family
 - **Agape** - unconditional, sacrificial love that puts the needs of others before oneself
@@ -60,7 +62,7 @@ Agape love is not about how we feel, but how we choose to act toward others, eve
 ### v.11-12
 
 - Spiritual gifts are appropriate for our present, incomplete state.
-- Paul compares this stage of life to childhood—necessary, but not permanent.
+- Paul compares this stage of life to childhood, necessary, but not permanent.
 - Maturity does not reject gifts, but it changes what we emphasize.
 - Right now, our understanding of God is real but limited.
 - We see God indirectly, like a blurred reflection in a mirror.
