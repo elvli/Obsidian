@@ -13,3 +13,8 @@ Daniel speaks on the differences between Nebuchadnezzar and Belshazzar. Nebuchad
 If we are our own masters, we will boldly proclaim our truth, our opinions and feelings. 
 
 If we’re are our own masters, we lead ourselves to death
+
+The cross was a torturing device. A form of punishment that got turned into a symbol by Jesus
+
+Self pity is still pride, it’s like I think I deserve something but didn’t get it. 
+
