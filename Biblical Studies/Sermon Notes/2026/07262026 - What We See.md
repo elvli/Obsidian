@@ -9,6 +9,7 @@ Jesus is helping the blind see Jesus for who he really is. The blind man saw the
 
 1. See Jesus
 	1. Th Pharisees were stuck in their own lives, they could not see the truth of Jesus and his miracle. They were so stuck with their knowledge and traditions. 
+	2. Pharisees were born with sight yet spiritually blind. 
 2. Remove the Blinds
 	1. He surrenders himself, falling before Jesus
 	2. All we’ve been doing is pointing at other people
