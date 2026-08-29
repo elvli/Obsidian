@@ -20,10 +20,8 @@ Horizontal spiritual disciplines
 
 - Congregating
 	- Hebrew 10:25
-	
 - Giving
 	- 2 Corinthians 9:6-7 - God loves a cheerful giver
-
 - Serving
 	- Matthew 20:26
 	
