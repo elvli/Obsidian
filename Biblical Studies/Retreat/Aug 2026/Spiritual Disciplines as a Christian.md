@@ -2,7 +2,7 @@
 Jesus was asked what is the greatest commandments. Jesus says you shall love the lord you God with all your heart 
 
 Vertical spiritual disciplines
-- prayer
+- Prayer
 	- 1 Thessalonians 5:17 - pray without ceasing
 	- We are to be in continual conversation with God
 	- 1 Peter 2:2
@@ -14,10 +14,9 @@ Vertical spiritual disciplines
 
 Horizontal spiritual disciplines
 - Evangelism
-- Mark 16:15 - go into all the world and preach the gospel to all creation
-- There is no excuse to not share the gospel with those around us
-- Get out of tire comfort zone and share your story
-
+	- Mark 16:15 - go into all the world and preach the gospel to all creation
+	- There is no excuse to not share the gospel with those around us
+	- Get out of tire comfort zone and share your story
 - Congregating
 	- Hebrew 10:25
 - Giving
@@ -44,5 +43,5 @@ It’s impart that of we want to grow and’s be like Jesus, we have to develop 
 
 Reflection Questions:
 - With disciples do I need to work on?
-- What habits can u begin to form or break that will help me down the spiritual disciplines?
+- What habits can you begin to form or break that will help me down the spiritual disciplines?
 - What practical step can I take this week to down the habits ands spiritual disciplines?
