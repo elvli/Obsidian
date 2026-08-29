@@ -20,3 +20,8 @@ Luke 14:25-33
 	4. Becoming a Christian means you will have all of hell against you
 	5. If God is for us, who can be against us Roman’s 8:31
 	6. The more knowledge we have, the more judgement tot will receive Luke 2
+
+
+4. If you choose not to follow Christ, who will you follow?
+5. If you choose not to follow Christ, so tot know the blessings you will be missing of on
+6. If you choose not to follow Christ, are you willing to pay the consequences
