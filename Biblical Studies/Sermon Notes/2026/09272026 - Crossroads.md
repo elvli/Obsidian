@@ -9,3 +9,4 @@ If you lean on God, he will lead you down the right path
 
 Leaning on yourself leads to burnout, doubt, and even us questioning our faith
 
+Only by loving God and realizing that we’re nothing, will we be able to believe in God
