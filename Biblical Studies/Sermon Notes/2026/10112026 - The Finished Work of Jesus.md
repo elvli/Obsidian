@@ -14,3 +14,6 @@ Other religions deal with sins, the Bible deals with sin itself
 
 The presence of God in prayer is the only way to conquer sin.
 
+Jesus gave his life as ransom for our sins. By dying he reconciled us to God. He would also save believing Israel and grafted Gentiles to the grape vine
+
+Jesus paid in full the debt. Served the sentence and won the battle against Satan
